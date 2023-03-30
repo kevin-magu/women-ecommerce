@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #fdffff;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+nav .logo a img{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav input{
+    height: 30px;
+    margin-left: 90px;
+    border-radius: 17px;
+    outline: none;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    padding: 7px;
+}
+#search-icon{
+    margin-left: -27px;
+
+}
+#search-icon:hover{
+    cursor: pointer;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-right: 130px;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#cart{
+    position: relative;
+}
+#cart::after{
+    content: '3';
+    position: absolute;
+    font-size: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: gold;
+    top: -14px;
+    right: -10px;
+}
+nav .category-main{
+    position: relative;
+}
+nav .category-main:hover .categories{
+    display: flex;
+}
+nav .category-main .categories{
+    position: absolute;
+    flex-direction: column;
+    top: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+nav .category-main .categories li{
+    text-align: center;
+    padding: 10px;
+}
+.hero-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.hero-text p{
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cinzel', serif;
+    z-index: 0;
+}
+.hero-bag{
+    display: flex;
+    margin-left: -160px;
+}
+.hero-bag img{
+    height: 360px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#shop-with-us{
+  position: absolute;
+  margin-left: -170px;
+}
+#shop-with-us a{
+    color: gold;
+    text-decoration: none;
+}
+.hero-main{
+    display: flex;
+}
+.hero-pic{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    position: relative;
+    right: -160px;
+    width: 800px;
+    margin-top: 15px;
+    margin-left: 9%;
+    border-radius: 30px;
+    background: rgb(187,126,213);
+background: linear-gradient(82deg, rgba(187,126,213,1) 11%, rgba(159,19,128,1) 39%);
+}
+.hero-pic::after{
+    position: absolute;
+    content: url(images/hero-girl.png);
+    margin-left: -850px;
+    margin-top: 40px;
+}
+.hero-pic img{
+    position: relative;
+    margin-top: -400px;
+}
+.hero-pic p{
+    font-family: 'Cinzel', serif;
+    margin-top: -100px;
+    font-size: 30px;
+    margin-left: -40px;
+    text-align: center;
+    color: gold;
+}
+.hero-pic .stars{
+    display: flex;
+    color: gold;
+    font-size: 28px;
+    margin-left: -30px;
+}
+#add-to-cart{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#add-to-cart:hover{
+    cursor: pointer;
+}
+#cart-icon{
+    font-size: 25px;
+    position: absolute;
+}
+#added-to-cart{
+    display: none;
+    transform: translateY(60px);
+    
+}
+#thankyou{
+    display: noe;
+    transform: translateY(40px);
+}
+#for-shooping-with-us{
+    transform: translateY(70px);
+    display: none;
+}
+
+@keyframes move {
+        0%{
+            transform: translateX(-30px);
+        }
+        50%{
+            transform: translateX(10px);
+        }
+        100%{
+            transform: translateX(120px);
+        }
+    }
+ 
+@keyframes messagemove {
+    0%{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    50%{
+        opacity: 100%;
+    }
+    70%{
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
