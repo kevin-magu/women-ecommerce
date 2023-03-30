@@ -179,14 +179,15 @@ background: linear-gradient(82deg, rgba(187,126,213,1) 11%, rgba(159,19,128,1) 3
     font-size: 25px;
     position: absolute;
 }
-#added-to-cart{
+#cart-icon2{
+    font-size: 25px;
     display: none;
-    transform: translateY(60px);
-    
+    transform: translateX(-30px);
 }
+
 #thankyou{
-    display: noe;
-    transform: translateY(40px);
+    display: none;
+    transform: translateY(80px);
 }
 #for-shooping-with-us{
     transform: translateY(70px);
@@ -202,22 +203,26 @@ background: linear-gradient(82deg, rgba(187,126,213,1) 11%, rgba(159,19,128,1) 3
         }
         100%{
             transform: translateX(120px);
-        }
     }
- 
+}
 @keyframes messagemove {
     0%{
-        opacity: 0;
-        transform: translateY(-15px);
+        transform: translateY(-25px);
     }
-    50%{
-        opacity: 100%;
-    }
+    
     70%{
-        transform: translateY(10px);
+        transform: translateY(70px);
     }
     100%{
         opacity: 0;
+        transform: translateY(90px);
     }
 }
-
+#check-out-more{
+    display: none;
+    margin-top: 60px;
+}
+#check-out-more a{
+    color: gold;
+    text-decoration: none;
+}
