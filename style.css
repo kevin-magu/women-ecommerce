@@ -222,7 +222,7 @@ background: linear-gradient(82deg, rgba(187,126,213,1) 11%, rgba(159,19,128,1) 3
     height: 100px;
     width: 200px;
 }
-#check-out a{
+#check-out{
     color: gold;
     position: absolute;
     bottom: 3%;

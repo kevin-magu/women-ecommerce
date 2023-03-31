@@ -21,8 +21,7 @@ function moveCart(){
     addtoCartbutton.style.transition="2s ease-in-out";
     addtoCartbutton.style.transitionDelay="4.2s";
 
-    checkoutmore.style.display="flex";
-    checkoutmore.style.backgroundColor="red";
+    
     /*checkoutmore.style.transform="translateY(70px)";
     checkoutmore.style.transition="2s ease-in";
     checkoutmore.style.transitionDelay="7s"; */
