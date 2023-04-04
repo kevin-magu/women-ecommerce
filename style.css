@@ -10,7 +10,9 @@ body{
 nav{
     display: flex;
     align-items: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgb(236, 216, 216);
+    background: rgb(25,25,28);
+background: linear-gradient(82deg, rgba(25,25,28,1) 42%, rgba(213,38,38,0.8323704481792717) 77%);
 }
 nav .logo a img{
     height: 60px;
@@ -84,149 +86,10 @@ nav .category-main .categories li{
     text-align: center;
     padding: 10px;
 }
-.hero-text{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-.hero-text p{
-    margin-top: 6%;
-    margin-left: 6%;
+.home-main{
+    height: 720px;
     width: 100%;
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Cinzel', serif;
-    z-index: 0;
-}
-.hero-bag{
-    display: flex;
-    margin-left: -160px;
-}
-.hero-bag img{
-    height: 360px;
-    margin-left: 200px;
-    margin-top: 30px;
-}
-#shop-with-us{
-  position: absolute;
-  margin-left: -170px;
-}
-#shop-with-us a{
-    color: gold;
-    text-decoration: none;
-}
-.hero-main{
-    display: flex;
-}
-.hero-pic{
-    display: flex;
-
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-    position: relative;
-    right: -160px;
-    width: 800px;
-    margin-top: 15px;
-    margin-left: 9%;
-    border-radius: 30px;
-    background: rgb(187,126,213);
-background: linear-gradient(82deg, rgba(187,126,213,1) 11%, rgba(159,19,128,1) 39%);
-}
-.hero-pic::after{
-    position: absolute;
-    content: url(images/hero-girl.png);
-    margin-left: -850px;
-    margin-top: 40px;
-}
-.hero-pic img{
-    position: relative;
-    margin-top: -400px;
-}
-.hero-pic p{
-    font-family: 'Cinzel', serif;
-    margin-top: -100px;
-    font-size: 30px;
-    margin-left: -40px;
-    text-align: center;
-    color: gold;
-}
-.hero-pic .stars{
-    display: flex;
-    color: gold;
-    font-size: 28px;
-    margin-left: -30px;
-}
-#add-to-cart{
-    width: 140px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    margin-top: 50px;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-#add-to-cart:hover{
-    cursor: pointer;
-}
-#cart-icon{
-    font-size: 25px;
-    position: absolute;
-}
-#cart-icon2{
-    font-size: 25px;
-    display: none;
-    transform: translateX(-30px);
-}
-
-#thankyou{
-    display: none;
-    transform: translateY(80px);
-}
-#for-shooping-with-us{
-    transform: translateY(70px);
-    display: none;
-}
-
-@keyframes move {
-        0%{
-            transform: translateX(-30px);
-        }
-        50%{
-            transform: translateX(10px);
-        }
-        100%{
-            transform: translateX(120px);
-    }
-}
-@keyframes messagemove {
-    0%{
-        transform: translateY(-25px);
-    }
-    
-    70%{
-        transform: translateY(70px);
-    }
-    100%{
-        opacity: 0;
-        transform: translateY(90px);
-    }
-}
-#check-out{
-    height: 100px;
-    width: 200px;
-}
-#check-out{
-    color: gold;
-    position: absolute;
-    bottom: 3%;
-    left: 240px;
-    text-decoration: none;
-    display: none;
+    background: url(images/fashionhero.jpg);
+    background-position: center;
+    background-size: cover;
 }
