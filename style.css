@@ -11,8 +11,8 @@ nav{
     display: flex;
     align-items: center;
     box-shadow: 0 2px 4px 0 rgb(236, 216, 216);
-    background: rgb(25,25,28);
-background: linear-gradient(82deg, rgba(25,25,28,1) 42%, rgba(213,38,38,0.8323704481792717) 77%);
+    background: rgb(62,62,68);
+background: linear-gradient(14deg, rgba(62,62,68,1) 13%, rgba(25,25,28,1) 45%, rgba(213,38,38,0.8323704481792717) 81%);
 }
 nav .logo a img{
     height: 60px;
