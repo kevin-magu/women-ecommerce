@@ -11,8 +11,8 @@ nav{
     display: flex;
     align-items: center;
     box-shadow: 0 2px 4px 0 rgb(236, 216, 216);
-    background: rgb(62,62,68);
-background: linear-gradient(14deg, rgba(62,62,68,1) 13%, rgba(25,25,28,1) 45%, rgba(213,38,38,0.8323704481792717) 81%);
+    background: rgb(16,16,17);
+background: linear-gradient(14deg, rgba(16,16,17,1) 44%, rgba(221,30,30,0.8323704481792717) 81%);
 }
 nav .logo a img{
     height: 60px;
@@ -48,7 +48,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 #cart{
@@ -63,7 +63,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: gold;
+    background-color: black;
     top: -14px;
     right: -10px;
 }
@@ -92,4 +92,32 @@ nav .category-main .categories li{
     background: url(images/fashionhero.jpg);
     background-position: center;
     background-size: cover;
+}
+.logo-hero{
+    width: 30%;
+    height: 400px;
+}
+.logo-hero img{
+    width: 100%;
+    height: 100%;
+    
+}
+.home-main p{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 30%;
+    margin-left: 45px;
+    font-size: 27px;
+    text-align: center;
+    word-spacing: 7px;
+    margin-bottom: 20px;
+}
+.home-main a{
+    margin-left: 220px;
+}
+.home-main a button{
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
 }
