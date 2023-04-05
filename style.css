@@ -215,5 +215,20 @@ nav .category-main .categories li{
 .clothes-example-seemore:hover{
     background-color: black;
     color: white;
-    
+}
+#card5{
+    background: url(images/top-e1.png);
+    background-size: cover;
+}
+#card6{
+    background: url(images/top-e2.png);
+    background-size: cover;
+}
+#card7{
+    background: url(images/top-e3.png);
+    background-size: cover;
+}
+#card8{
+    background: url(images/top-e4.png);
+    background-size: cover;
 }
